@@ -7,22 +7,22 @@
 
 ### English
 
-# TCMRIE: A Benchmark for Evaluating Large Language Models in Traditional Chinese Medicine Case Information Extraction
+<!--span style="color: blue;">TCMRIE: A Benchmark for Evaluating Large Language Models in Traditional Chinese Medicine Case Information Extraction</span-->
 
-TCMRIE is a comprehensive benchmark designed to assess the performance of large language models on the task of information extraction from Traditional Chinese Medicine (TCM) case records.
+TCMRIE is a comprehensive benchmark designed to assess the performance of large language models on the task of information extraction from Traditional Chinese Medicine (TCM) records.
 
 ## Dataset
 The TCMRIE dataset encompasses original TCM case texts along with their corresponding structured extraction results. Notably, the dataset has been meticulously reviewed and validated by TCM professionals to ensure accuracy and relevance.
 
 ## Evaluation Metrics
-We employ commonly used evaluation metrics from other information extraction tasks, with enhancements tailored to the nuances of TCM case information extraction.
+We employ commonly used evaluation metrics from other information extraction tasks, with enhancements tailored to the nuances of TCM record information extraction.
 
 ![Workflow](./PNG/workflow.png)
 
 ## Capabilities of TCMRIE
 
 By leveraging TCMRIE, you can:
-- Benchmark the performance of various large language models on TCM case information extraction tasks.
+- Benchmark the performance of various large language models on TCM record information extraction tasks.
 - Compare the effectiveness of different models in this specialized domain.
 
 Below is a visual representation of the performance of some well-known models on the TCMRIE benchmark:
@@ -36,21 +36,27 @@ We are actively working on augmenting TCMRIE with additional evaluation models a
 
 ### 中文
 
-// Your Chinese content here
+# TCMRIE：评估中医医案信息抽取大型语言模型的基准
 
+TCMRIE 是一个全面的基准测试，旨在评估大语言模型在中医医案信息抽取任务中的表现。
 
-## What is tcmrie?
-tcmrie是一个用于指导大语言模型选择的，针对中医医案信息抽取任务的评估基准。它可以评估不同LLM在中医医案信息抽取任务上的性能。
+## 数据集
+TCMRIE 数据集包含原始中医医案文本及其相应的结构化提取结果。该数据集经过中医专业人员的严格审查和验证，以确保准确性和相关性。
 
-该评估基准的数据集来自中医专业人员审核，评估指标采用其他信息抽取任务常用的评估指标并加以改进。
+## 评估指标
+我们采用其他信息提取任务中常用的评估指标，并针对中医医案信息抽取的细微差别进行了增强。
 
-![image](https://github.com/medinfox/tcmrie/blob/main/PNG/workflow.png)
+![Workflow](./PNG/workflow.png)
 
-## What can you get from tcmrie?
-使用tcmrie，你可以得到不同大语言模型在意an信息抽取任务上的效果，并对他们进行比较。
+## TCMRIE 的功能
 
-下图展示了部分知名模型在tcmrie上的效果
+通过利用 TCMRIE，您可以：
+- 对各种大型语言模型在中医案录信息抽取任务上的表现进行基准测试。
+- 比较不同模型在此专业领域的有效性。
 
-![image](https://github.com/medinfox/tcmrie/blob/main/PNG/results%20for%20some%20llms.png)
+以下是一些知名模型在 TCMRIE 基准上的表现的直观表示：
 
-我们正在加紧对tcmrie的补充完善，包括纳入更多评测模型、对数据集进行最终的校对等，近期将尽快发布该评估基准。
+![模型表现](./PNG/results%20for%20some%20llms.png)
+
+## 即将推出的增强功能
+我们正在积极努力通过其他评估模型增强 TCMRIE，并对数据集进行最终质量检查。我们的目标是尽快发布更新后的基准。
