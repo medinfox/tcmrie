@@ -7,9 +7,9 @@ tcmrie是一个用于指导大语言模型选择的，针对中医医案信息�
 ## How to use tcmrie？
 将repo克隆到本地，然后运行
 
-'''
+~~~
 pip install -e.
-'''
+~~~
 
 ·对于使用在线大模型服务，需要在endpoint和api_key中填入对应模型的端口，和自己注册的密钥即可使用
 
