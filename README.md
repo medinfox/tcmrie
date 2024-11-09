@@ -7,12 +7,12 @@
 
 ### English
 
-<!--span style="color: blue;">TCMRIE: A Benchmark for Evaluating Large Language Models in Traditional Chinese Medicine Case Information Extraction</span-->
+# TCMRIE: A Benchmark for Evaluating Large Language Models in Traditional Chinese Medicine Record Information Extraction
 
 TCMRIE is a comprehensive benchmark designed to assess the performance of large language models on the task of information extraction from Traditional Chinese Medicine (TCM) records.
 
 ## Dataset
-The TCMRIE dataset encompasses original TCM case texts along with their corresponding structured extraction results. Notably, the dataset has been meticulously reviewed and validated by TCM professionals to ensure accuracy and relevance.
+The TCMRIE dataset encompasses original TCM record texts along with their corresponding structured extraction results. Notably, the dataset has been meticulously reviewed and validated by TCM professionals to ensure accuracy and relevance.
 
 ## Evaluation Metrics
 We employ commonly used evaluation metrics from other information extraction tasks, with enhancements tailored to the nuances of TCM record information extraction.
